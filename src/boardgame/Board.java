@@ -32,5 +32,9 @@ public class Board {
 		return pieces[position.getRow()][position.getColum()];
 	}
 	
-	
+	//A apresentação/atualização dos objetos na matriz + atualização da posição do objeto
+	public void placePiece(Piece piece, Position position) {
+		pieces[position.getRow()][position.getColum()] = piece;
+		piece.position = position;
+	}
 }

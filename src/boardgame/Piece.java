@@ -19,7 +19,7 @@ public abstract class Piece {
 		return possibleMoves()[position.getRow()][position.getColumn()];
 	}
 	
-	//Rook method
+	//Hook method
 	public boolean isThereAnyPossibleMove() {
 		boolean[][] mat = possibleMoves();
 		for (int i = 0; i < mat.length; i++) {

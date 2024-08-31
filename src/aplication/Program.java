@@ -17,7 +17,7 @@ public class Program {
 		List<ChessPiece> captured = new ArrayList<>();
 		Scanner sc = new Scanner(System.in);
 		while (true) {
-			try {
+			  try {
 
 				UI.clearScreen();
 				UI.printMatch(chessMatch, captured);
